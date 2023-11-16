@@ -698,9 +698,9 @@ form.search button:hover{
         border: 1px solid var(--border-color);
         border-top: 0;
         display: none;
-        /* background-position: right bottom;
+        background-position: right bottom;
         background-repeat: no-repeat;
-        background-size: auto; */
+        background-size: auto;
     }
 
     .dpt-menu .beauty ul{
@@ -719,19 +719,21 @@ form.search button:hover{
         background-image: url(assets/menu/menu_bg4.jpg);
     }
 
-    .dpt-menu .mega{
-        width: auto;
-        min-width: var(--percent100);
-    }
+   
 
-    .dpt-menu .has-child > :where(ul, .mega) ::before{
+    .dpt-menu .has-child > :where(ul, .mega)::before{
         content: '';
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        background: linear-gradient(90deg, rgba(255,255 255, 1) 0%);
+        background: linear-gradient(90deg, rgba(255,255 255, 1) 0%,rgba(255,255 255, .4) 100%);
+    }
+
+    .dpt-menu .mega{
+        width: auto;
+        min-width: var(--percent100);
     }
 
     .dpt-menu .has-child:hover .mega{
