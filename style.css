@@ -694,12 +694,13 @@ form.search button:hover{
         min-height: var(--percent100);
         padding: 1.5em;
         font-size: var(--font-small);
+        line-height: 2.5em;
         border: 1px solid var(--border-color);
         border-top: 0;
         display: none;
-        background-position: right bottom;
+        /* background-position: right bottom;
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: auto; */
     }
 
     .dpt-menu .beauty ul{
