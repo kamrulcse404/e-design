@@ -441,6 +441,7 @@ form.search button{
     font-weight: var(--fw6);
     background-color: var(--primary-color);
     color: var(--white-color);
+    border-radius: 0 7px 7px 0;
     cursor: pointer;
     transition: var(--trans-background);
 }
