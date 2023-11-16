@@ -479,7 +479,6 @@ form.search button:hover{
     height: var(--percent100);
     touch-action: auto;
     padding: 1.5em;
-
 }
 
 .off-canvas .canvas-head{
@@ -491,10 +490,9 @@ form.search button:hover{
     border-bottom-right-radius: 160px 25px;
 }
 
- .off-canvas .canvas-head .logo{
+.off-canvas .canvas-head .logo{
     z-index: 10;
     position: relative;
-
 }
 
 .off-canvas .canvas-head .logo .circle{
@@ -509,7 +507,6 @@ form.search button:hover{
     background-color: var(--secondary-dark-color);
     color: var(--white-color);
     transition: var(--trans-background-color);
-
 }
 
 .t-close:hover{
