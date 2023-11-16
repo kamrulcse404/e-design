@@ -687,7 +687,7 @@ form.search button:hover{
 
 .sectop h2 span:not(.circle){
     padding: 0 0 0 2em;
-}
+}   
 
 .sectop h2 .circle{
     top: -5px;
@@ -698,7 +698,6 @@ form.search button:hover{
 .products .offer{
     text-align: center;
     margin-bottom: 1.5em;
-
 }
 
 .products .offer p{
@@ -818,7 +817,6 @@ form.search button:hover{
 .products .content{
     display: flex;
     flex-direction: column;
-
 }
 
 .products:where(.big, .main.one) .content{
@@ -886,7 +884,7 @@ form.search button:hover{
     background-color: var(--secondary-color);
 }
 
-.products .mini .item{
+.products.mini .item{
     margin-bottom: 2em;    
 }
 
