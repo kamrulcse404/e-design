@@ -988,10 +988,11 @@ form.search button:hover{
 
 @media screen and (min-width : 768px){
     .products .price .current{
-        font-size: 1.2em;
+        font-size: 1.25em;
     }
 
-    .products.mini{
+    .products.mini,
+    .banner .row{
         flex: 0 0 50%;
     }
 
