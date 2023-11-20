@@ -1184,14 +1184,21 @@ form.search button:hover{
 }
 
 .showmenu .overlay{
-        
+
 }
 
 
 
 
+/* kamrul  */
+.widgets .flexwrap .row h4{
+    margin-bottom: 1.25em;
+}
 
-
+.mega .flexcol .row h4{
+    margin-bottom: 0.5em;
+}
+/* kamrul end */
 
 
 
@@ -1287,14 +1294,12 @@ form.search button:hover{
 
     nav .mega ul{
         font-size: var(--font-small);
-
     }
 
     nav .mega .women-brands{
         display: flex;
         flex-wrap: wrap;
         max-width: 180px;
-
     }
 
     nav .mega .women-brands li{
