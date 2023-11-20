@@ -1007,6 +1007,29 @@ form.search button:hover{
     z-index: 3;
 }
 
+.banner .product-categories .item{
+    display: flex;
+    padding: 1.5em;
+}
+
+.banner .product-categories .image{
+    max-width: 150px;
+}
+
+.main-links ul{
+    font-size: var(--font-small);
+    color: var(--light-text-color);
+    margin-top: 1em;
+}
+
+.banner .second-links{
+    margin-top: 2em;
+}
+
+.main-links li a:hover{
+    text-decoration: underline;
+}
+
 
 
 
@@ -1248,7 +1271,8 @@ form.search button:hover{
     }
 
     /* trending products  */
-    .trending .products{
+    .trending .products,
+    .product-categories .row{
         flex: 0 0 33.3333%;
     }
 
