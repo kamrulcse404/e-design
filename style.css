@@ -1055,6 +1055,11 @@ form.search button:hover{
     width: var(--percent100);
 }
 
+.widgets {
+    padding: 3.5em 2.5em;
+    background-color: var(--light-bg-color);
+}
+
 
 
 
@@ -1082,7 +1087,8 @@ form.search button:hover{
     }
 
     .products.mini,
-    .banner .row{
+    .banner .row,
+    .widgets .row{
         flex: 0 0 50%;
     }
 
@@ -1304,7 +1310,8 @@ form.search button:hover{
         max-height: 373px;
     }
 
-    .products.main .item{
+    .products.main .item,
+    .widgets .row{
         flex: 0 0 25%;
     }
 
