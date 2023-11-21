@@ -963,7 +963,7 @@ form.search button:hover{
     z-index: 3;
 }
 
-.banner .item{
+.banners .item{
     position: relative;
     background-color: var(--white-color);
     border: 1px solid var(--border-color);
@@ -1185,7 +1185,7 @@ form.search button:hover{
 
 .showmenu .overlay{
 
-}
+}   
 
 
 
@@ -1434,7 +1434,10 @@ form.search button:hover{
     }
 
     /* trending products  */ /* issue hare  */
-    .trending .products,
+    .trending .products{
+        flex: 0 0 33.3333%;
+    }
+
     .product-categories .row{
         flex: 0 0 33.3333%;
     }
