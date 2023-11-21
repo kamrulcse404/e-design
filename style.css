@@ -1007,12 +1007,12 @@ form.search button:hover{
     z-index: 3;
 }
 
-.banner .product-categories .item{
+.banners .product-categories .item{
     display: flex;
     padding: 1.5em;
 }
 
-.banner .product-categories .image{
+.banners .product-categories .image{
     max-width: 150px;
 }
 
@@ -1022,7 +1022,7 @@ form.search button:hover{
     margin-top: 1em;
 }
 
-.banner .second-links{
+.banners .second-links{
     margin-top: 2em;
 }
 
@@ -1196,6 +1196,10 @@ form.search button:hover{
 }
 
 .mega .flexcol .row h4{
+    margin-bottom: 0.5em;
+}
+
+.banners .product-categories h4{
     margin-bottom: 0.5em;
 }
 /* kamrul end */
